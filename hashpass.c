@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     }
     
     char password[20]; 
-
+ 
 	while (fgets(password, 20, in) != NULL)
 	{
 	    char *hash = md5(password, strlen(password) -1);
